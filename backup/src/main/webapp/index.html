@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en">
+  <head>
+    <meta http-equiv="content-type" content="application/xhtml+xml; charset=UTF-8" />
+    <title>Hello App Engine</title>
+  </head>
+
+  <body>
+
+       <h4> Photo Expression Memories </h4>
+<br>
+Choose the pattern of images which ranks the top and be surprised if it matches your thoughts
+<br><br>
+<form action="/hello" method="post">
+  <input type="radio" id="Fashion" name="vision" value="Fashion" checked><label for="Fashion">Fashion</label><br>
+  <input type="radio" id="Jewellery" name="vision" value="Jewellery"><label for="Jewellery">Jewellery</label><br>
+  
+  <br>
+  <br>
+  Default 3 images,To see more images, input how many more you require 
+  <label for="numberofimages">Choose a number of Images:</label>
+  <select name="numberofimage" id="numberofimage">
+    <option value="1">1</option>
+    <option value="2">2</option>
+    <option value="3" selected>3</option>
+    <option value="4">4</option>
+    <option value="5">5</option>
+    <option value="6">6</option>
+    <option value="7">7</option>
+    <option value="8">8</option>
+  </select>
+  <!-- <input type="text" id="fname" name="fname" value=""><br><br> -->
+<input type="submit" value="Search" />            
+        </form>
+        
+         
+  </body>
+</html>
